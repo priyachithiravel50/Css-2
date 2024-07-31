@@ -64,9 +64,8 @@ body{
     letter-spacing: 25px;
 }
 .section {
-    background-color: #f8f9fa; 
+    background-color: rgb(255,255,255); 
     padding: 80px;
-    border: 1px solid #ddd; 
     margin: 20px;
 }
 #top2 {
@@ -76,30 +75,85 @@ body{
     font-size: 1.2em;
     color: #333; 
     margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .list1 {
-    font-size: 1.3em; 
-    color: #333; 
+    font-size: 15px; 
+    color: lightskyblue; 
     margin: 10px 0; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 .list {
-    font-size: 1.1em; 
+    font-size: 15px; 
     color: #555; 
     margin: 10px 0; 
 }
 .options {
-    font-size: 1.5em; 
-    color: #007bff; 
+    font-size: 1.2em; 
+    color: black; 
     margin: 20px 0 10px 0;
 }
-.list:hover, .list1:hover, .options:hover {
-    color: #0056b3; 
-    cursor: pointer; 
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the form container */
 }
 
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px;
+    width: 600px;
+}
 
+.form-container h4,
+.form-container h1 {
+    margin: 0;
+}
 
- 
+.form-container .top3 {
+    grid-column: span 2;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
+.form-container .email,
+.form-container .name1,
+.form-container .test {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
 
+.form-container .contact,
+.form-container .full1,
+.form-container .test,
+.form-container .mate {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
+.form-container .label1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    grid-column: span 2; /* Spans both columns */
+}
+
+.form-container .name1 i {
+    color: green;
+}
+
+.form-container .num,
+.form-container .section1 {
+    display: none;
+}
+
+.form-container .full1 {
+    grid-column: span 2;
+}
