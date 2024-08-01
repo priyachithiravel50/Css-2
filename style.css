@@ -28,14 +28,6 @@ body{
     padding-left: 10px;
     padding-bottom: 10px;
 }
-.section{
-    display: flex;
-}
-.top2{
-    position: fixed;
-    background-color: white;
-    color: black;
-}
 .head1{
     background-color:whitesmoke;
     min-width:100vw;
@@ -46,7 +38,6 @@ body{
     display: flex;
    }   
 .top1{
-  
     font-family: "Public sans", sans-serif;
     margin: 0px 0px 0px 20px;
     padding:20px 0px;
@@ -57,103 +48,36 @@ body{
     padding-top: 25px;
     font-size: 16px;
     padding-right: 20px;
-
 }
 #nav-space{
     padding-top: 28px;   
     letter-spacing: 25px;
 }
-.section {
-    background-color: rgb(255,255,255); 
-    padding: 80px;
-    margin: 20px;
-}
-#top2 {
-    text-align: left;
-}
-.groups {
-    font-size: 1.2em;
-    color: #333; 
-    margin-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.list1 {
-    font-size: 15px; 
-    color: lightskyblue; 
-    margin: 10px 0; 
-    font-family: Arial, Helvetica, sans-serif;
-}
-.list {
-    font-size: 15px; 
-    color: #555; 
-    margin: 10px 0; 
-}
-.options {
-    font-size: 1.2em; 
-    color: black; 
-    margin: 20px 0 10px 0;
-}
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 0;
+
+
+
+
+
+
+
+
+
+.top1{
+    background-color: white;
     display: flex;
-    justify-content: center; /* Center the form container */
-}
-
-.form-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
-    gap: 20px;
-    width: 600px;
-}
-
-.form-container h4,
-.form-container h1 {
+    font-size: 10px;
+    margin-top: 0px;
+    padding: 20px;
     margin: 0;
 }
-
-.form-container .top3 {
-    grid-column: span 2;
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    text-align: center;
+.head1{
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
 }
+.nav{
+    text-align: right;
+    display: flex;
 
-.form-container .email,
-.form-container .name1,
-.form-container .test {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-}
 
-.form-container .contact,
-.form-container .full1,
-.form-container .test,
-.form-container .mate {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.form-container .label1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    grid-column: span 2; /* Spans both columns */
-}
-
-.form-container .name1 i {
-    color: green;
-}
-
-.form-container .num,
-.form-container .section1 {
-    display: none;
-}
-
-.form-container .full1 {
-    grid-column: span 2;
 }
