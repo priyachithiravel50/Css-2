@@ -1,108 +1,308 @@
 body{
     margin: 0px;
-    padding: 0px;
+    padding: 0;
     box-sizing: border-box;
 }
-.header{
-    display: flex;
-}
-.head{
-    background-color: hwb(240 2% 73%);
-    text-align: center;
-    height: 100%;
-    width: 80px;
+.pri{
+    width: 40px;
+    height: 150%;
+    background-color: rgb(58,66,89);
+    color: gray;
+    padding: 15px 15px 0px 20px;
+    font-size: 20px;
     position: fixed;
-    min-height: 100vh;
 }
-.top{
-    font-size: 30px;
-    font-family: "Montserrat", sans-serif;
+#head{
     color: white;
-    padding-left: 20px;
-    padding-top: 15px;
+    padding: 10px;
+}
+#top{
+    color: white;
+    padding: 10px;
 }
 .icons{
     color: gray;
-    font-size: 21px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-}
-.head1{
-    background-color: #f1f1f1;
     padding: 10px;
-    text-align: left;
-    position: fixed;
-    display: flex;
+    background-color: rgb(25,35,59);
 }
-.top1{
-    font-size: 20px;
-    text-align: left;
+.bar1{
+    background-color: rgb(209, 199, 199);
+    height: 50px;
+    width: 100%;
+    margin-left: 95px;
 }
 .head1{
-    background-color:whitesmoke;
+    background-color: rgb(241, 241, 248);
     width: 100%;
-    height: 70px;
-    margin-left: 80px;
-    display: flex;
-   }   
+    height: 50px;
+    padding: 10px;
+}
 .top1{
-    font-family: "Public sans", sans-serif;
-    margin: 0px 0px 0px 20px;
-    padding:20px 0px;
-    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 5px;
+    padding: 7px;
 }
-#nav{
-    padding-left:65%;
-    padding-top: 22px;
-    font-size: 16px;
-}
-#nav-space{
-    padding-top: 25px;   
-    letter-spacing: 25px;
-}
-.section{
-    font-size: 10px;
-    margin: 8%;
-}
-.groups{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.top3{
-    color: lightskyblue;
-    font-size: 24px;
+.pop{
+    margin-top: 2px;
 }
 .pot{
+    margin-top: 2px;
+}
+.doc1{
+    display: grid;
+    grid-template-columns: 18% 57% 25%;
+}
+h3{
     font-size: 20px;
 }
-.sec{
-   display: flex;
-   align-items: center;
+h5{
+    font-size: 12px;
+    color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.test{
-    margin: 5px;
-    text-indent: 5px; 
+p{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col1{
+    margin-left: 120px;
+    padding-bottom: 30px;
+    border-right: 1px solid rgb(216, 157, 157);
+    height: 900px;
+    width: 105px;
+    margin-top: 20px;
+    font-size: 13px;
+    padding: 20px;
+}
+.col2{
+    margin-top: 35px;
+    margin-left:20px;
+    border-right: 1px solid rgb(216, 157, 157);
+    width: 725px;
+}
+h4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input{
+    width: 700px;
+    height: 25px;
+    border: 1px solid beige;
+    background-color: rgb(245,247,251);
+}
+.label1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.input2{
+    width: 338px;
+    height: 25px;
+    border: 1px solid beige;
+    border-radius: 5px;
+    background-color: rgb(245,247,251);
+}
+.input3{
+    width: 700px;
+    height: 25px;
+}
+.input5{
+    width: 700px;
+    height: 25px;
+    border: 1px solid beige;
+    border-radius: 5px;
+    background-color: rgb(245,247,251);
+}
+.label2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.label3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.label4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.button{
+    margin-top: 50px;
+
+}
+.button button{
+    padding: 5px   5px;
+}
+h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col3{
+    width:300px;
+    font-size: 14px;
+    align-content: flex-start;
+}
+.user{
+    margin-top: 15px;
+}
+.col3 .input{
+    height: 30px;
+    width: 300px;
+}
+.boxes .box1{
+    width: 300px;
+    border: 1px solid rgb(245,247,251);
+    height: 150px;
+    color: rgb(214, 185, 185);
+    border-radius: 2px;
+    margin-top: 5px;
+}
+.boxes .box2{
+    width: 300px;
+    border: 1px solid rgb(214, 185, 185);
+    height: 150px;
+    color: rgb(214, 185, 185);
+    padding-left: 10px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+.boxes .box3{
+    width: 300px;
+    border: 1px solid black;
+    height: 150px;
+    padding-left: 10px;
+}
+.boxes .box4{
+    width: 300px;
+    border: 1px solid black;
+    height: 150px;
+    padding-left: 10px;
+}
+.boxes .box5{
+    width: 300px;
+    border: 1px solid  rgb(214, 185, 185);
+    height: 150px;
+    color: rgb(214, 185, 185);
+    padding-left: 10px;
+}
+.groupinput{
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    border: 1px solid rgb(93, 152, 175);
+
+}
+.singleinput{
+    background-color: skyblue;
+    border: 1px solid rgb(93, 152, 175);
+    border-radius: 5px;
+}
+.inputsearch{
+    border: 1px solid black;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.navbarright{
+    display: flex;
+    justify-content: space-between;
+}
+.dem{
+    display: flex;
+    gap: 10px;
+    padding-top: 11px;
+    padding-right: 60px;
+    font-size: 17px;
+}
+.white{
+    color: white;
+}
+.box1 h3,p{
+    padding: 10px;
+    padding-left: 20px;
+}
+.box1{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 5px;
+}
+.box1 .user{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.vline{
+    border-right: 1px solid;
+    height: 10px;
+    padding-top: 8px;
+}
+.box2{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 5px;
+}
+.box2 .user{
+    padding-top: 10px;
+    font-size: 25px;
+    padding-left: 8px;
+}
+.box2 h3,p{
+    padding: 10px;
+    padding-left: 20px;
+}
+.box3{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 5px;
+}
+.box3 .building{
+    padding-top: 10px;
+    font-size: 25px;
+    color: rgba(214, 214, 33, 0.767);
+    padding-left: 8px;
+}
+.box3 h3,p{
+    padding: 10px;
+    padding-left: 20px;
+}
+.box4{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 5px;
+    float: left;
+}
+.box4 .group{
+    padding-top: 10px;
+    font-size: 25px;
+    color: red;
+    padding-left: 8px;
+}
+.box4 h3,p{
+    padding: 10px;
+    padding-left: 20px;
+}
+.box5{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 5px;
+}
+.box5 .user{
+    padding-top: 10px;
+    font-size: 25px;
+    padding-left: 8px;
+}
+.box5 h3,p{
+    padding: 10px;
+    padding-left: 20px;
+}
+#color{
+    color: red;
+    font-size: 10px;
+}
+.input{
+    padding-left: 10px;
+}
+.input2{
+    padding-left: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-             
-              
 
 
 
