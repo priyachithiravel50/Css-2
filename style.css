@@ -94,7 +94,7 @@ h4{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-.input2{
+.input1{
     width: 338px;
     height: 25px;
     border: 1px solid beige;
@@ -124,13 +124,7 @@ h4{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-.button{
-    margin-top: 50px;
 
-}
-.button button{
-    padding: 5px   5px;
-}
 h2{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -139,6 +133,13 @@ h2{
     width:300px;
     font-size: 14px;
     align-content: flex-start;
+}
+.button{
+    margin-top: 50px;
+
+}
+.button button{
+    padding: 5px   5px;
 }
 .user{
     margin-top: 15px;
@@ -149,17 +150,17 @@ h2{
 }
 .boxes .box1{
     width: 300px;
-    border: 1px solid rgb(245,247,251);
+    border: 1px solid rgb(206, 213, 213);
     height: 150px;
-    color: rgb(214, 185, 185);
+    color: rgb(206, 213, 213);
     border-radius: 2px;
     margin-top: 5px;
 }
 .boxes .box2{
     width: 300px;
-    border: 1px solid rgb(214, 185, 185);
+    border: 1px solid rgb(206, 213, 213);
     height: 150px;
-    color: rgb(214, 185, 185);
+    color: rgb(206, 213, 213);
     padding-left: 10px;
     margin-top: 10px;
     border-radius: 2px;
@@ -178,18 +179,18 @@ h2{
 }
 .boxes .box5{
     width: 300px;
-    border: 1px solid  rgb(214, 185, 185);
+    border: 1px solid rgb(206, 213, 213);
     height: 150px;
-    color: rgb(214, 185, 185);
+    color: rgb(206, 213, 213);
     padding-left: 10px;
 }
-.groupinput{
+.group{
     border-radius: 5px;
     border: 1px solid skyblue;
     border: 1px solid rgb(93, 152, 175);
 
 }
-.singleinput{
+.single{
     background-color: skyblue;
     border: 1px solid rgb(93, 152, 175);
     border-radius: 5px;
@@ -200,6 +201,18 @@ h2{
     height: 35px;
     border-radius: 5px;
     padding-left: 5px;
+}
+.search{
+    margin-top: -5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.082);
+    width: 310px;
+    font-size: 14px;
+    padding: 8px 0px 8px 8px;
+}
+#box{
+    margin-right: 10px;
 }
 .navbarright{
     display: flex;
@@ -224,11 +237,11 @@ h2{
     grid-template-columns: auto auto;
     border-radius: 5px;
 }
-.box1 .user{
+.box1 .sas{
     padding-top: 10px;
     font-size: 25px;
 }
-.vline{
+.vr{
     border-right: 1px solid;
     height: 10px;
     padding-top: 8px;
@@ -238,7 +251,7 @@ h2{
     grid-template-columns: auto auto;
     border-radius: 5px;
 }
-.box2 .user{
+.box2 .sas{
     padding-top: 10px;
     font-size: 25px;
     padding-left: 8px;
@@ -252,7 +265,7 @@ h2{
     grid-template-columns: auto auto;
     border-radius: 5px;
 }
-.box3 .building{
+.box3 .fa{
     padding-top: 10px;
     font-size: 25px;
     color: rgba(214, 214, 33, 0.767);
@@ -266,7 +279,6 @@ h2{
     display: grid;
     grid-template-columns: auto auto;
     border-radius: 5px;
-    float: left;
 }
 .box4 .group{
     padding-top: 10px;
@@ -283,7 +295,7 @@ h2{
     grid-template-columns: auto auto;
     border-radius: 5px;
 }
-.box5 .user{
+.box5 .sys{
     padding-top: 10px;
     font-size: 25px;
     padding-left: 8px;
@@ -296,12 +308,10 @@ h2{
     color: red;
     font-size: 10px;
 }
-.input{
-    padding-left: 10px;
-}
-.input2{
-    padding-left: 10px;
-}
+
+
+
+
 
 
 
