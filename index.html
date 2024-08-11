@@ -13,13 +13,13 @@
     <div class="head">
         <h1 class="top">D</h1>
         <div class="icons">
-        <i class="fa-sharp fa-solid fa-house"></i><br><br>
-        <i class="fa-sharp fa-solid fa-address-book"></i><br><br>
-        <i class="fa-sharp fa-solid fa-bullhorn"></i><br><br>
-        <i class="fa-sharp fa-solid fa-wrench"></i><br><br>
-        <i class="fa-sharp fa-solid fa-square-poll-vertical"></i><br><br>
-        <i class="fa-sharp fa-solid fa-image"></i><br><br>
-        <i class="fa-sharp fa-solid fa-circle-dollar"></i><br><br>
+        <i class="fa-sharp fa-solid fa-house"></i><br><br><br>
+        <i class="fa-sharp fa-solid fa-address-book"></i><br><br><br>
+        <i class="fa-sharp fa-solid fa-bullhorn"></i><br><br><br>
+        <i class="fa-sharp fa-solid fa-wrench"></i><br><br><br>
+        <i class="fa-sharp fa-solid fa-square-poll-vertical"></i><br><br><br>
+        <i class="fa-sharp fa-solid fa-image"></i><br><br><br>
+        <i class="fa-solid fa-circle-dollar"></i><br><br><br><br><br><br><br><br>
         </div>
         </div> 
     </div>
@@ -28,11 +28,11 @@
          <h2 class="top1">Edit Contact</h2>
          <div class="dem">
              <div class="pop">dembsky</div>
-             <div class="pot">inc.<i class='fa-sharp fa-solid fa-sort-down'></i></div>
+             <div class="pot">inc.  <i class='fa-sharp fa-solid fa-sort-down'></i></div><br><br>
              <div class="vr"></div>
-             <i class="fa-solid fa-gear" id="nav-space"></i>
-             <i class="fa-sharp fa-solid fa-circle-question"></i>
-             <i class="fa-sharp fa-solid fa-user" ></i>
+             <i class="fa-solid fa-gear" id="nav-space"></i><br><br>
+             <i class="fa-sharp fa-solid fa-circle-question"></i><br><br>
+             <i class="fa-sharp fa-solid fa-user" ></i><br><br>
          </div>
      </div>
         
@@ -77,12 +77,12 @@
                      </div>
                      <div class="label2">
                          <div>
-                             <label>Status<i class="fa-solid fa-circle" id="color"></i></label>
+                             <label>Status <i class="fa-solid fa-circle"id="color"></i></label>
                              <br><br>
                              <input class="input1" type="text" placeholder="Designer">
                          </div>
                          <div>
-                             <label>Tracking<i class="fa-solid fa-circle" id="color"></i></label>
+                             <label>Tracking <i class="fa-solid fa-circle" id="color"></i></label>
                              <br><br>
                              <input class="input1" type="text" placeholder="Hell no">
                              <br><br>
@@ -129,8 +129,13 @@
                             </div>
                             <div class="col3">
                                 <div class="button">
-                                    <button class="group">Group Input</button>
-                                    <button class="single">Single Input</button>
+                                    <table class="table">
+                                       <tr>
+                                        <th><button class="group">Group Inputs</button></th>
+                                        <th><button class="single">Single Input</button></th>
+                                       </tr>
+                                    </table>
+
                                 </div>
                                 <br>
                                 <h2>Add Group Inputs</h2>
@@ -139,65 +144,70 @@
                                      <br>
                                      <p class="search">
                                         <i class="fa-solid fa-magnifying-glass"></i>Search</p>
-                                     <div class="boxes">
-                                        <div class="box1">
-                                            <div class="sas">
-                                               <i class="fa-sharp fa-solid fa-user"></i></div>
-                                            <div>
-                                                <h3 class="Basic">Basic Information</h3>
-                                                <p>Email, First Name, Last Name, Full Name, Status, Tracking</p>
-                                            </div>
-                                        </div>
-                                        <br><br>
-                                        <div class="box2">
-                                            <div class="sas">
-                                                <i class="fa-solid fa-house"></i>
-                                               
-                                            </div>
-                                            <div><h3>Address Information</h3>
-                                                <p>Address, State, City, ZIP,County,<br> Country</p>
-                                            </div>
-                                            
-                                     </div>
-                                        <br><br>
-                                        <div class="box3">
-                                            <div class="fa">
-                                                <i class="fa-solid fa-building"></i>
-                
-                                            </div>
-                                            <div><h3>Company Information</h3>
-                                                <p>Name, Industry, Department, Title, Role, SISC Code, Company Size, Annual Revenue</p>
-                                            </div>
-                                        </div>
-                                        <br><br>
-                                        
-                                        <div class="box4">
-                                            <div class="group">
-                                                <i class="fa-solid fa-group-arrows-rotate"></i>
-                
-                                            </div>
-                                            
-                                            <div><h3>Sales Representative</h3>
-                                                <P>First Name, Last Name, Email, Phone Photo</P>
-                                            </div>
-                                        </div>
-                                        <br><br>
-                                        
-                                        <div class="box5">
-                                            <div class="sys">
-                                                <i class="fa-solid fa-lock"></i>
-                
-                                            </div>
-                                            <div><h3>System Information</h3>
-                                                <P>Contact ID, External System ID, Source, source, Usub Reason, Date Joined, Expire Date, Updated Date, Never put on hold</P>
-                                            </div>
-                                        </div>
-                                        <br><br>
-                                    </div>
+
+                                       
+                               <div class="box1">
+                               <table>
+                                <tr>
+                                  <i class="fa-sharp fa-solid fa-user"></i>
+                                <th> Basic Information</th>
+                                </tr>
+                                <tr>
+                                 <td rowspan="2">Email,First Name,Last Name,Full <br>Name, Status, Tracking</td>
+                                </tr>
+                                </table>
                             </div>
-                        </div>                      
-                        
-                   
-                
-            
-                           
+                            <div  class="box2">
+                                <table>
+                                <tr>
+                                  <i class="fa-solid fa-house"></i>
+                                  <th>Address Information</th>
+                                </tr>
+                                <tr>
+                                <td rowspan="2">Address, City, State, Zip, County,<br> Country</td>
+                                </tr>
+                                </table>
+                            </div>
+
+                            <div  class="box3">
+                                <table>
+                                <tr>
+                                <i class="fa-solid fa-building"></i>
+                                <th>Company Information</th>
+                                </tr>
+                                <tr>
+                                <td rowspan="2">Name, Industry, Department, Title, Role, SIC Code, Company Size, Annual Revenue</td>
+                                </tr>
+                                </table>
+                            </div>
+
+                            <div class="box4">
+                                <table>
+                                <tr>
+                                <i class="fa-solid fa-group-arrows-rotate"></i>
+                                <th>Sales Representative</th>
+                                </tr>
+                                <tr>
+                                <td rowspan="2">Firsr Name, Last Name, Email, Phone, Photo</td>
+                                </tr>
+                                </table>
+                            </div>
+
+                            <div class="box5">
+                                <table >
+                                <tr>
+                                <i class="fa-solid fa-lock"></i>
+                                <th>System Information</th>
+                                </tr>
+                                <tr>
+                                <td rowspan="2">Contact ID, External System ID, Source, Source, Usub Reason, Date Jined, Expire Date, Update Date, Never Put on hold</td>
+                                </tr>
+                                </table>
+                            </div>
+                    
+
+                        </div>
+                    </div>
+                    </div>
+</body>
+</html>
